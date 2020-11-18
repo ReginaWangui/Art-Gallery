@@ -1,12 +1,16 @@
-.container{
+body{
     background-color: #591F1F;
 }
 li{
     display: inline;
+    float: left;
     color: #F2D3BC;
 
 
 }
+li .hover{
+
+}
 p{
-    backgr
+    background-color: #591F1F;
 }
