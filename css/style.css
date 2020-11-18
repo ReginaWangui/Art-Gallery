@@ -11,6 +11,15 @@ li{
 li .hover{
 
 }
+.logo{ 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    max-width:20%;
+    height:20%;
+    float: left;
+}
 p{
     background-color: #591F1F;
 }
