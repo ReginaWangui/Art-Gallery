@@ -1,39 +1,70 @@
 body{
     background-color: grey;
 }
-#nav1  a {
-    float: left;
-    color: maroon;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display:inline ;
+ #nav1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color:#F2D3BC;
   }
-ul {
-        list-style-type: none;
-        margin: 10px;
-        padding: 10px;
-      }
-#nav2   a{
-   
+  
+ #nav1 li {
+    float: left;
+  }
+  
+ #nav1 li a {
+    display: block;
+    color:#F2D3BC;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
-    
-}
-#nav2{
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+ #nav1 li a:hover {
+    background-color:#F2D3BC;
+    color:maroon;
+  }
+
+.row{ width: 95.6%;
+    height: 70px;
     background-color: maroon;
     color: #F2D3BC;
-    width: 25%;
-}
+    position:fixed;
+    top: 0;
+
+  }
 .banner{
     margin:20px;
 }
 .container{
     background-color: #F2D3BC;
 }
-.footer{
+.images{
+    height: 300px;
+    width: 100%;
+
+}
+.image1{
+    float:left;
+    margin:10px;
+}
+.image2{
+    float: left;
+    margin:10px;
+}
+.image3{
+    float: left;
+    margin:10px;
+}
+#section img{
+    width :25%; 
+    height: 250;
+     width: 250;
+    
+    float: right;
+}
+#footer{
     margin: 20px;
 }
