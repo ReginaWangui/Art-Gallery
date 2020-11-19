@@ -65,6 +65,19 @@ body{
     
     float: right;
 }
+
+}
+.email{
+    float: left;
+   
+}
+.tel{
+    float: left;
+   
+}
+.copy{
+    float: left;
+   
+}
 #footer{
     margin: 20px;
-}
