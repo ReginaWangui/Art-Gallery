@@ -1,25 +1,39 @@
 body{
-    background-color: #591F1F;
+    background-color: grey;
 }
-li{
-    display: inline;
+#nav1  a {
     float: left;
+    color: maroon;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display:inline ;
+  }
+ul {
+        list-style-type: none;
+        margin: 10px;
+        padding: 10px;
+      }
+#nav2   a{
+   
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+#nav2{
+    background-color: maroon;
     color: #F2D3BC;
-
-
+    width: 25%;
 }
-li .hover{
-
+.banner{
+    margin:20px;
 }
-.logo{ 
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-    max-width:20%;
-    height:20%;
-    float: left;
+.container{
+    background-color: #F2D3BC;
 }
-p{
-    background-color: #591F1F;
+.footer{
+    margin: 20px;
 }
