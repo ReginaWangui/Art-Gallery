@@ -39,9 +39,11 @@ body{
     top: 0;
 
   }
-  h1{
+  h3{
       background-color: maroon;
       color: #F2D3BC;
+      margin: 20px;
+      
   }
   
 .banner{
@@ -89,7 +91,13 @@ body{
    
 }
 #footer{
-    margin: 20px;
+    margin: 20px;}
 
     /* about-us style*/
-
+.row-abt1 img{
+width: 200px;
+height: 180px;
+left: 1078px;
+top: 721px;
+margin: 20px;
+}
