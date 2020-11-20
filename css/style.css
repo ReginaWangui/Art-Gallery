@@ -1,6 +1,10 @@
 body{
     background-color: grey;
 }
+.container{
+    background-color: #F2D3BC; 
+    background-repeat: no-repeat;
+}
  #nav1 ul {
     list-style-type: none;
     margin: 0;
@@ -35,6 +39,11 @@ body{
     top: 0;
 
   }
+  h1{
+      background-color: maroon;
+      color: #F2D3BC;
+  }
+  
 .banner{
     margin:20px;
 }
@@ -81,3 +90,6 @@ body{
 }
 #footer{
     margin: 20px;
+
+    /* about-us style*/
+
