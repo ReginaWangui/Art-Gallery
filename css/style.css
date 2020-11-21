@@ -105,8 +105,11 @@ body{
     color: #F2D3BC;
     
 }
+.alert{
+    margin-left:600px;
+}
 
-    /* about-us style*/
+/* about-us style*/
 .row-abt1 img{
 width: 200px;
 height: 180px;
