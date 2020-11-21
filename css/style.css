@@ -93,10 +93,11 @@ body{
 }
 .foot{
    background-color: maroon;
-   width: 1219px;
+  
     height: 50px;
     margin-left: 25px;
     margin-right: 25px;
+    
    
 }
 .foot p{
