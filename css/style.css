@@ -48,6 +48,7 @@ body{
   
 .banner{
     margin:20px;
+    
 }
 .container{
     background-color: #F2D3BC;
@@ -59,11 +60,11 @@ body{
 }
 .image1{
     float:left;
-    margin:10px;
+    margin:16px;
 }
 .image2{
     float: left;
-    margin:10px;
+    margin:12px;
 }
 .image3{
     float: left;
@@ -90,8 +91,18 @@ body{
     float: left;
    
 }
-#footer{
-    margin: 20px;}
+.foot{
+    margin: 20px;
+   width: 96.5%;
+   background-color: maroon;
+   
+}
+.foot p{
+    display: inline-block;
+    margin-left:200px;
+    color: #F2D3BC;
+    
+}
 
     /* about-us style*/
 .row-abt1 img{
@@ -115,3 +126,35 @@ margin: 20px;
         width: 1220px;
         height: 250px;
 }
+.row-gal2 img{
+    width: 250px;
+height: 200px;
+left: 1078px;
+top: 721px;
+margin: 20px;
+}
+.foot img{
+    width: 1220px;
+    height: 300px;
+}
+
+
+.row1 {
+    height: 500px;
+    width: 95%;
+}
+
+.content-area {
+    float: left;
+    width: 250px;
+}
+.content-area p{
+text-align: left;
+}
+
+.most-liked h1 {
+    float: right;
+    left: 100px;
+    text-align: right;
+}
+
